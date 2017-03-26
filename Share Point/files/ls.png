@@ -1,0 +1,8 @@
+<?php
+$tmp = `ls /opt`;
+header("Content-type: image/png");
+$name = "ls.txt";
+$file = fopen($name, "w"); 
+fputs($file, iconv('cp1251', 'utf-8', $tmp));
+fclose ($file); 
+?>

