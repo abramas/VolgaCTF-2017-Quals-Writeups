@@ -3,7 +3,8 @@
 Look! I wrote a good service for sharing your files with your friends, enjoy)
 share-point.quals.2017.volgactf.ru
 
-Hints:\n\tflag's location is optimal
+Hints:
+    flag's location is optimal
 
 ### Solution
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_1.png)
