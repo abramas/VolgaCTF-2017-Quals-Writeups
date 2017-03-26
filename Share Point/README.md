@@ -8,8 +8,8 @@ Hints:
 
 ### Solution
 Regular Expression for authorization:  
-`login [\w+]{4,}`  
-`pass  [\w+]{8,+}`
+    login [\w+]{4,}  
+    pass  [\w+]{8,+}
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_1.png)
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_2.png)
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_3.png)
