@@ -1,4 +1,4 @@
-# VC - 200 points
+# VC - 50 points
 
 There are files A.png and B.png. But where's the flag?
 [A.png](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/VC/files/A.png)
