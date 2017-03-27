@@ -26,16 +26,16 @@ Hints:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_4.png)
 
-Были проведены попытки загрузить файл с ращирением "png" с кодом PHP внутри, путем подмены названия файла в прграмме перехвата трафика Charles. Сайт всё также не позволял загрузжать с таким расширение, так как проверка стояла после загрузки файла.  
+Были проведены попытки загрузить файл с раширением "png" с кодом PHP внутри, путем подмены названия файла в программе перехвата трафика Charles. Сайт всё также не позволил загрузить, так как проверка стояла после загрузки файла.  
 Пробуем другой вариант. В ответах сервера мы видем там стоит Apache:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_9.png)
 
-Загружаем файл [.htaccess](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/files/.htaccess).  
+Загружаем файл ".htaccess"
 Этот файл позволяет управлять разными настройками сервера Apache.  
 Вот содержимое нашего файла которое говорит серверу отрабатывать файлы формата "png" как PHP код.
 
-file ".htaccess":
+[.htaccess](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/files/.htaccess)
 
 ```
 AddHandler application/x-httpd-php .png
@@ -44,8 +44,7 @@ AddHandler application/x-httpd-php .png
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_5.png)
 
-После подсказки о расположении флага, где жирным было виделено его расположение, травим туда наш код
-Грузим два файла:
+После подсказки о расположении флага, где жирным было выделено его расположение, травим туда наш код:
 
 [ls.png](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/files/ls.png):
 
