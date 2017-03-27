@@ -18,7 +18,7 @@ Hints:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_2.png)
 
-Ладно, пробуем загрузить файл с раширением "png".
+Ладно, пробуем загрузить файл с расширением "png".
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_3.png)
 
@@ -26,7 +26,7 @@ Hints:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_4.png)
 
-Были проведены попытки загрузить файл с раширением "png" с кодом PHP внутри, путем подмены названия файла в программе перехвата трафика Charles. Сайт всё также не позволил загрузить, так как проверка стояла после загрузки файла.  
+Были проведены попытки загрузить файл с расширением "png" с кодом PHP внутри, путем подмены названия файла в программе перехвата трафика Charles. Сайт всё также не позволил загрузить, так как проверка стояла после загрузки файла.  
 Пробуем другой вариант. В ответах сервера мы видем там стоит Apache:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Share%20Point/assets/Screenshot_9.png)
