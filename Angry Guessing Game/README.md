@@ -26,7 +26,7 @@ Hints:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Angry%20Guessing%20Game/assets/Screenshot_3.png)
 
-Или можно вызвать её с помощь контекстного меню Jump => Jump to xref to operand...
+Или с помощью контекстного меню Jump => Jump to xref to operand...
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Angry%20Guessing%20Game/assets/Screenshot_4.png)
 
@@ -44,7 +44,7 @@ Hints:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Angry%20Guessing%20Game/assets/Screenshot_9.png)
 
-Здесь мы види что присутствуют выводы сообщений как и о правильном ключе, так и о неверном.  
+Здесь мы видим что присутствуют выводы сообщений как и о правильном ключе, так и о неверном.  
 Нажимаем пробел, что бы псмотреть граф этой функции:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Angry%20Guessing%20Game/assets/Screenshot_10.png)
@@ -57,7 +57,7 @@ Hints:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Angry%20Guessing%20Game/assets/Screenshot_12.png)
 
-Смотри что в ней:
+Смотрим что в ней:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Angry%20Guessing%20Game/assets/Screenshot_13.png)
 
