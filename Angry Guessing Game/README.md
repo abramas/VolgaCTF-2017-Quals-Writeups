@@ -45,7 +45,7 @@ Hints:
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Angry%20Guessing%20Game/assets/Screenshot_9.png)
 
 Здесь мы видим что присутствуют выводы сообщений как и о правильном ключе, так и о неверном.  
-Нажимаем пробел, что бы псмотреть граф этой функции:
+Нажимаем пробел, что бы посмотреть граф этой функции:
 
 ![](https://github.com/texh0k0t/VolgaCTF-2017-Quals-Write-Up/blob/master/Angry%20Guessing%20Game/assets/Screenshot_10.png)
 
